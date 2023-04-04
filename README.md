@@ -1,6 +1,12 @@
 # Keyset Pagination vs. Offset Pagination
 
-This repository contains a sample project that demonstrates benchmarking Keyset Pagination and Offset Pagination in C# using Benchmark.NET. The purpose of this benchmark is to compare the performance of these two pagination techniques in a relational database.
+This repository contains a benchmarking project that compares Keyset Pagination and Offset Pagination in C# using LINQ and BenchmarkDotNet. Keyset Pagination and Offset Pagination are two common pagination techniques used in web applications to retrieve a subset of data from a database for display in a user interface. The project provides a sample implementation of both pagination techniques and uses BenchmarkDotNet to measure and compare their performance.
+
+The benchmarking project includes a sample C# application that simulates a simple data retrieval scenario, where data is retrieved from an in-memory collection. The project uses BenchmarkDotNet, a popular benchmarking library for .NET, to measure the execution time and memory usage of both Keyset Pagination and Offset Pagination. The benchmark results are presented in a tabular format, allowing for easy comparison of the performance of the two pagination techniques.
+
+In addition to the benchmarking project, the repository also includes a README.md file that provides a detailed explanation of Keyset Pagination and Offset Pagination, their advantages and disadvantages, and a comparison of their performance based on the benchmark results. The README.md file is written in English and serves as a documentation for the benchmarking project, providing insights and guidance on choosing the appropriate pagination technique based on specific application requirements.
+
+The goal of this repository is to provide developers with a benchmarking tool to compare the performance of Keyset Pagination and Offset Pagination in a C# application, and to help them make informed decisions on which pagination technique to use in their own projects. It is intended to be a useful resource for developers who are interested in understanding the differences between Keyset Pagination and Offset Pagination, and their implications in terms of performance and functionality. Contributions and feedback are welcome to further improve and enhance this benchmarking project.
 
 ## Keyset Pagination
 
